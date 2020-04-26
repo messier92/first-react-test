@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.key{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px 0px;
+  background: #ddd;
+  outline: none;
+  margin: 2px;
+  flex: 1;
+  min-width: 80px;
+}
+
+.key:active {
+  background: #ccc;
+}
+
+.key-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display {
+  padding: 10px 10px;
+  text-align: right;
+  background: #eee;
+}
+
+.App-header {
+  text-align: center;
+}
